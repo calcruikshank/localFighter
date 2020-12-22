@@ -1,0 +1,204 @@
+{
+    "name": "ControllerInput",
+    "maps": [
+        {
+            "name": "MouseInputs",
+            "id": "664105de-9e32-4ff2-99b8-df3fb6d33a42",
+            "actions": [
+                {
+                    "name": "MouseLook",
+                    "type": "Value",
+                    "id": "7d8856a2-71c1-4987-8637-38058d2001d7",
+                    "expectedControlType": "Vector2",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "interactions": ""
+                },
+                {
+                    "name": "KeyboardMove",
+                    "type": "Value",
+                    "id": "de7db1a5-6067-474c-8566-eafc1e03529e",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PunchLeft",
+                    "type": "Button",
+                    "id": "c56b8dd7-6ea5-4b5a-aeff-d3b8b5b5eca4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "PunchRight",
+                    "type": "Button",
+                    "id": "a4a1ecae-23b5-4ada-8a68-60d05304afc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ReleasePunchRight",
+                    "type": "Button",
+                    "id": "ca6c73c3-3924-42f8-be92-47fe51705fc7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "ReleasePunchLeft",
+                    "type": "Button",
+                    "id": "d982424f-01bc-447f-af6b-8aacbd2f603c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "ShieldRight",
+                    "type": "Button",
+                    "id": "7d806d99-d494-49d6-b92c-2137df7b87ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ShieldLeft",
+                    "type": "Button",
+                    "id": "08cbb95d-239d-491f-b98b-308ee593e2d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ReleaseShieldLeft",
+                    "type": "Button",
+                    "id": "70ae3f0f-7220-4428-b2c9-0d7e6a53b38e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "ReleaseShieldRight",
+                    "type": "Button",
+                    "id": "203fe03b-047a-485e-a2ec-21e5d09b8390",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b77b0ed4-2877-406b-b467-1be981d1dba1",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "groups": "",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d15a2648-1c0d-4d26-adca-0b8ccfd12f2a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "KeyboardMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff6d80cf-4ed7-4c33-8b50-0eee7ebba7a3",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6deb2b39-d693-4de5-b10b-1bd28ca0cc74",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b54eb45c-ec61-45cf-92ec-d968dd888d69",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReleasePunchRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2d7bb90-cb2c-4a20-8590-4378756db43f",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReleasePunchLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "473a8f39-7d54-40da-acdc-f4d1b55adc9e",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShieldRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "185a59b7-7ab4-459e-a1fd-0ddb30d79cbc",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShieldLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "416db132-a20d-4a07-a00e-e72c6d3059d9",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReleaseShieldLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcd69a90-a8ed-44e5-ab17-67db5b863bc5",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReleaseShieldRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
